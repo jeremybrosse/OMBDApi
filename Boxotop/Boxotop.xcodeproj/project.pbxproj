@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28A6CCB52689AF7A009FFBF0 /* OMDAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6CCB42689AF7A009FFBF0 /* OMDAPI.swift */; };
+		28A6CCB72689B670009FFBF0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6CCB62689B670009FFBF0 /* HomeView.swift */; };
+		28E65DB92685CB5800BA8579 /* BoxotopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E65DB82685CB5800BA8579 /* BoxotopApp.swift */; };
+		28E65DBB2685CB5800BA8579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E65DBA2685CB5800BA8579 /* ContentView.swift */; };
+		28E65DBD2685CB5900BA8579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E65DBC2685CB5900BA8579 /* Assets.xcassets */; };
+		28E65DC02685CB5900BA8579 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E65DBF2685CB5900BA8579 /* Preview Assets.xcassets */; };
+		28E65DCB2685CB5A00BA8579 /* BoxotopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E65DCA2685CB5A00BA8579 /* BoxotopTests.swift */; };
+		28E65DD62685CB5A00BA8579 /* BoxotopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E65DD52685CB5A00BA8579 /* BoxotopUITests.swift */; };
+		28E65DE52685CBCB00BA8579 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E65DE42685CBCB00BA8579 /* MovieModel.swift */; };
+		28E65DEB2685E12800BA8579 /* BoiteDeDialogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E65DEA2685E12800BA8579 /* BoiteDeDialogue.swift */; };
+		28E65DEF2686001400BA8579 /* RemoteImageUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E65DEE2686001400BA8579 /* RemoteImageUrl.swift */; };
+		28E65DF2268609E400BA8579 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 28E65DF1268609E400BA8579 /* Lottie */; };
+		28E65DF4268609F800BA8579 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E65DF3268609F800BA8579 /* LottieView.swift */; };
+		28E65DF726860A3A00BA8579 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = 28E65DF626860A3A00BA8579 /* search.json */; };
+		28E65DF9268613C500BA8579 /* DetailMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E65DF8268613C500BA8579 /* DetailMovie.swift */; };
+		28F365C42686767700EED887 /* DetailMovieListe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F365C32686767700EED887 /* DetailMovieListe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28E65DC72685CB5A00BA8579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E65DAD2685CB5800BA8579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28E65DB42685CB5800BA8579;
+			remoteInfo = Boxotop;
+		};
+		28E65DD22685CB5A00BA8579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E65DAD2685CB5800BA8579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28E65DB42685CB5800BA8579;
+			remoteInfo = Boxotop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28A6CCB42689AF7A009FFBF0 /* OMDAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDAPI.swift; sourceTree = "<group>"; };
+		28A6CCB62689B670009FFBF0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		28E65DB52685CB5800BA8579 /* Boxotop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boxotop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E65DB82685CB5800BA8579 /* BoxotopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxotopApp.swift; sourceTree = "<group>"; };
+		28E65DBA2685CB5800BA8579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28E65DBC2685CB5900BA8579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28E65DBF2685CB5900BA8579 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28E65DC12685CB5900BA8579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E65DC62685CB5A00BA8579 /* BoxotopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxotopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E65DCA2685CB5A00BA8579 /* BoxotopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxotopTests.swift; sourceTree = "<group>"; };
+		28E65DCC2685CB5A00BA8579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E65DD12685CB5A00BA8579 /* BoxotopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxotopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E65DD52685CB5A00BA8579 /* BoxotopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxotopUITests.swift; sourceTree = "<group>"; };
+		28E65DD72685CB5A00BA8579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E65DE42685CBCB00BA8579 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		28E65DEA2685E12800BA8579 /* BoiteDeDialogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoiteDeDialogue.swift; sourceTree = "<group>"; };
+		28E65DEE2686001400BA8579 /* RemoteImageUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageUrl.swift; sourceTree = "<group>"; };
+		28E65DF3268609F800BA8579 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		28E65DF626860A3A00BA8579 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		28E65DF8268613C500BA8579 /* DetailMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovie.swift; sourceTree = "<group>"; };
+		28F365C32686767700EED887 /* DetailMovieListe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieListe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28E65DB22685CB5800BA8579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E65DF2268609E400BA8579 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E65DC32685CB5A00BA8579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E65DCE2685CB5A00BA8579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28E65DAC2685CB5800BA8579 = {
+			isa = PBXGroup;
+			children = (
+				28E65DB72685CB5800BA8579 /* Boxotop */,
+				28E65DC92685CB5A00BA8579 /* BoxotopTests */,
+				28E65DD42685CB5A00BA8579 /* BoxotopUITests */,
+				28E65DB62685CB5800BA8579 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28E65DB62685CB5800BA8579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28E65DB52685CB5800BA8579 /* Boxotop.app */,
+				28E65DC62685CB5A00BA8579 /* BoxotopTests.xctest */,
+				28E65DD12685CB5A00BA8579 /* BoxotopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28E65DB72685CB5800BA8579 /* Boxotop */ = {
+			isa = PBXGroup;
+			children = (
+				28E65DF526860A1000BA8579 /* LottieFile */,
+				28E65DE72685CC3A00BA8579 /* ViewModel */,
+				28E65DE62685CC1F00BA8579 /* View */,
+				28E65DE32685CBB900BA8579 /* Model */,
+				28E65DB82685CB5800BA8579 /* BoxotopApp.swift */,
+				28E65DBC2685CB5900BA8579 /* Assets.xcassets */,
+				28E65DC12685CB5900BA8579 /* Info.plist */,
+				28E65DBE2685CB5900BA8579 /* Preview Content */,
+			);
+			path = Boxotop;
+			sourceTree = "<group>";
+		};
+		28E65DBE2685CB5900BA8579 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28E65DBF2685CB5900BA8579 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28E65DC92685CB5A00BA8579 /* BoxotopTests */ = {
+			isa = PBXGroup;
+			children = (
+				28E65DCA2685CB5A00BA8579 /* BoxotopTests.swift */,
+				28E65DCC2685CB5A00BA8579 /* Info.plist */,
+			);
+			path = BoxotopTests;
+			sourceTree = "<group>";
+		};
+		28E65DD42685CB5A00BA8579 /* BoxotopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28E65DD52685CB5A00BA8579 /* BoxotopUITests.swift */,
+				28E65DD72685CB5A00BA8579 /* Info.plist */,
+			);
+			path = BoxotopUITests;
+			sourceTree = "<group>";
+		};
+		28E65DE32685CBB900BA8579 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28E65DE42685CBCB00BA8579 /* MovieModel.swift */,
+				28A6CCB42689AF7A009FFBF0 /* OMDAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28E65DE62685CC1F00BA8579 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28E65DEA2685E12800BA8579 /* BoiteDeDialogue.swift */,
+				28E65DEE2686001400BA8579 /* RemoteImageUrl.swift */,
+				28E65DF3268609F800BA8579 /* LottieView.swift */,
+				28E65DF8268613C500BA8579 /* DetailMovie.swift */,
+				28F365C32686767700EED887 /* DetailMovieListe.swift */,
+				28A6CCB62689B670009FFBF0 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28E65DE72685CC3A00BA8579 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				28E65DBA2685CB5800BA8579 /* ContentView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		28E65DF526860A1000BA8579 /* LottieFile */ = {
+			isa = PBXGroup;
+			children = (
+				28E65DF626860A3A00BA8579 /* search.json */,
+			);
+			path = LottieFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28E65DB42685CB5800BA8579 /* Boxotop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E65DDA2685CB5A00BA8579 /* Build configuration list for PBXNativeTarget "Boxotop" */;
+			buildPhases = (
+				28E65DB12685CB5800BA8579 /* Sources */,
+				28E65DB22685CB5800BA8579 /* Frameworks */,
+				28E65DB32685CB5800BA8579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boxotop;
+			packageProductDependencies = (
+				28E65DF1268609E400BA8579 /* Lottie */,
+			);
+			productName = Boxotop;
+			productReference = 28E65DB52685CB5800BA8579 /* Boxotop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28E65DC52685CB5A00BA8579 /* BoxotopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E65DDD2685CB5A00BA8579 /* Build configuration list for PBXNativeTarget "BoxotopTests" */;
+			buildPhases = (
+				28E65DC22685CB5A00BA8579 /* Sources */,
+				28E65DC32685CB5A00BA8579 /* Frameworks */,
+				28E65DC42685CB5A00BA8579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E65DC82685CB5A00BA8579 /* PBXTargetDependency */,
+			);
+			name = BoxotopTests;
+			productName = BoxotopTests;
+			productReference = 28E65DC62685CB5A00BA8579 /* BoxotopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28E65DD02685CB5A00BA8579 /* BoxotopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E65DE02685CB5A00BA8579 /* Build configuration list for PBXNativeTarget "BoxotopUITests" */;
+			buildPhases = (
+				28E65DCD2685CB5A00BA8579 /* Sources */,
+				28E65DCE2685CB5A00BA8579 /* Frameworks */,
+				28E65DCF2685CB5A00BA8579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E65DD32685CB5A00BA8579 /* PBXTargetDependency */,
+			);
+			name = BoxotopUITests;
+			productName = BoxotopUITests;
+			productReference = 28E65DD12685CB5A00BA8579 /* BoxotopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28E65DAD2685CB5800BA8579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					28E65DB42685CB5800BA8579 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					28E65DC52685CB5A00BA8579 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 28E65DB42685CB5800BA8579;
+					};
+					28E65DD02685CB5A00BA8579 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 28E65DB42685CB5800BA8579;
+					};
+				};
+			};
+			buildConfigurationList = 28E65DB02685CB5800BA8579 /* Build configuration list for PBXProject "Boxotop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28E65DAC2685CB5800BA8579;
+			packageReferences = (
+				28E65DF0268609E400BA8579 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 28E65DB62685CB5800BA8579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28E65DB42685CB5800BA8579 /* Boxotop */,
+				28E65DC52685CB5A00BA8579 /* BoxotopTests */,
+				28E65DD02685CB5A00BA8579 /* BoxotopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28E65DB32685CB5800BA8579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E65DF726860A3A00BA8579 /* search.json in Resources */,
+				28E65DC02685CB5900BA8579 /* Preview Assets.xcassets in Resources */,
+				28E65DBD2685CB5900BA8579 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E65DC42685CB5A00BA8579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E65DCF2685CB5A00BA8579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28E65DB12685CB5800BA8579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E65DE52685CBCB00BA8579 /* MovieModel.swift in Sources */,
+				28E65DBB2685CB5800BA8579 /* ContentView.swift in Sources */,
+				28E65DEB2685E12800BA8579 /* BoiteDeDialogue.swift in Sources */,
+				28A6CCB72689B670009FFBF0 /* HomeView.swift in Sources */,
+				28E65DF4268609F800BA8579 /* LottieView.swift in Sources */,
+				28F365C42686767700EED887 /* DetailMovieListe.swift in Sources */,
+				28E65DB92685CB5800BA8579 /* BoxotopApp.swift in Sources */,
+				28E65DEF2686001400BA8579 /* RemoteImageUrl.swift in Sources */,
+				28E65DF9268613C500BA8579 /* DetailMovie.swift in Sources */,
+				28A6CCB52689AF7A009FFBF0 /* OMDAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E65DC22685CB5A00BA8579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E65DCB2685CB5A00BA8579 /* BoxotopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E65DCD2685CB5A00BA8579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E65DD62685CB5A00BA8579 /* BoxotopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28E65DC82685CB5A00BA8579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28E65DB42685CB5800BA8579 /* Boxotop */;
+			targetProxy = 28E65DC72685CB5A00BA8579 /* PBXContainerItemProxy */;
+		};
+		28E65DD32685CB5A00BA8579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28E65DB42685CB5800BA8579 /* Boxotop */;
+			targetProxy = 28E65DD22685CB5A00BA8579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28E65DD82685CB5A00BA8579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28E65DD92685CB5A00BA8579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28E65DDB2685CB5A00BA8579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Boxotop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Boxotop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boxotop.Boxotop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28E65DDC2685CB5A00BA8579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Boxotop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Boxotop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boxotop.Boxotop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28E65DDE2685CB5A00BA8579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoxotopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boxotop.BoxotopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxotop.app/Boxotop";
+			};
+			name = Debug;
+		};
+		28E65DDF2685CB5A00BA8579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoxotopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boxotop.BoxotopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxotop.app/Boxotop";
+			};
+			name = Release;
+		};
+		28E65DE12685CB5A00BA8579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoxotopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boxotop.BoxotopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Boxotop;
+			};
+			name = Debug;
+		};
+		28E65DE22685CB5A00BA8579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BoxotopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boxotop.BoxotopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Boxotop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28E65DB02685CB5800BA8579 /* Build configuration list for PBXProject "Boxotop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E65DD82685CB5A00BA8579 /* Debug */,
+				28E65DD92685CB5A00BA8579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E65DDA2685CB5A00BA8579 /* Build configuration list for PBXNativeTarget "Boxotop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E65DDB2685CB5A00BA8579 /* Debug */,
+				28E65DDC2685CB5A00BA8579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E65DDD2685CB5A00BA8579 /* Build configuration list for PBXNativeTarget "BoxotopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E65DDE2685CB5A00BA8579 /* Debug */,
+				28E65DDF2685CB5A00BA8579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E65DE02685CB5A00BA8579 /* Build configuration list for PBXNativeTarget "BoxotopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E65DE12685CB5A00BA8579 /* Debug */,
+				28E65DE22685CB5A00BA8579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		28E65DF0268609E400BA8579 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28E65DF1268609E400BA8579 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28E65DF0268609E400BA8579 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 28E65DAD2685CB5800BA8579 /* Project object */;
+}
